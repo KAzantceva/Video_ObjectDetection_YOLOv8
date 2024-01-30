@@ -24,18 +24,20 @@
    ```bash
    pip install -r requirements.txt
    ```
-
-2. **Тренировка модели:**
+2. **Скачать предварительно обученную модель:**
+   https://github.com/ultralytics/ultralytic
+   
+4. **Тренировка модели:**
    ```bash
    python train.py
    ```
 
-3. **Запуск TensorBoard:**
+5. **Запуск TensorBoard:**
    ```bash
    tensorboard --logdir=runs
    ```
 
-4. **Инференс на видеопотоке:**
+6. **Инференс на видеопотоке:**
    ```bash
    python inference.py --video_path=path/to/video.mp4
    ```
@@ -46,8 +48,9 @@
 - `models/`: Директория для сохранения обученных моделей.
 - `runs/`: Директория для хранения логов TensorBoard.
 - `train.py`: Скрипт для тренировки модели.
-- `inference.py`: Скрипт для инференса на видеопотоке.
-- `prepare_data.py`: Скрипт для подготовки данных и аннотаций.
+- `video_to_frames_batch.py`: Скрипт для создания фото из видеорядов.
+- `inference.py`: Скрипт для подготовки данных и аннотаций.
+- `custom.yaml`: Файл конфигурации.
 
 ## Технологии
 
