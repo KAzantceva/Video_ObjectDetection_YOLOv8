@@ -1,0 +1,5 @@
+train: C:\Users\kalash\IDE\YOLO V8_2\train
+val: C:\Users\kalash\IDE\YOLO V8_2\test
+
+nc: 1
+names: ['метастаз']
